@@ -7,13 +7,9 @@
   <!-- Maven profiles allow you to support both Scala 2.10 and Scala 2.11 with
     the right dependencies for modules specified for each version separately -->
   <build>
-    <sourceDirectory>src/main/scala</sourceDirectory>
     <plugins>
             <plugin>
-        <groupId>net.alchim31.maven</groupId>
-        <artifactId>scala-maven-plugin</artifactId>
-        <version>3.2.1</version>
-        <executions>
+                <executions>
           <execution>
             <goals>
               <goal>compile</goal>
